@@ -1,0 +1,46 @@
+#app {
+  height: 100dvh;
+}
+.lists__wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list {
+  max-height: 747px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 15px;
+  border: 1px solid black;
+  border-radius: 12px;
+  padding: 30px 35px;
+  box-shadow: 0px 0px 20px 5px rgba(82, 46, 112, 0.24);
+  overflow-y: auto;
+  scrollbar-color: rgb(221, 207, 230) rgb(236, 230, 230);
+  scrollbar-width: thin;
+  position: absolute;
+}
+
+.checkbox__wrapper {
+  display: flex;
+  align-items: center;
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
+  background: aquamarine;
+  margin-right: 10px;
+}
+.checkbox:hover {
+  cursor: pointer;
+}
+.list__id {
+  position: relative;
+  left: 85px;
+
+}
+.list__id-li {
+  margin-bottom: 5px;
+}
